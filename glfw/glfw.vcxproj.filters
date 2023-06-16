@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glad.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framebuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shader\Basic.shader" />
+    <None Include="res\shader\basic.vs" />
+    <None Include="res\shader\basic.fs" />
+    <None Include="res\shader\basic_texture.vs" />
+    <None Include="res\shader\basic_texture.fs" />
+    <None Include="res\shader\basic_transformations.vs" />
+    <None Include="res\shader\basic_transformations.fs" />
+    <None Include="res\shader\basic_coord.vs" />
+    <None Include="res\shader\basic_coord.fs" />
+    <None Include="res\Shader02\Color.vs" />
+    <None Include="res\Shader02\Color.fs" />
+    <None Include="res\Shader02\Color_light.vs" />
+    <None Include="res\Shader02\Color_light.fs" />
+    <None Include="res\Shader02\basic_lighting.vs" />
+    <None Include="res\Shader02\basic_lighting.fs" />
+    <None Include="res\Shader02\basic_lighting_cube.vs" />
+    <None Include="res\Shader02\basic_lighting_cube.fs" />
+    <None Include="res\Shader02\Materials.vs" />
+    <None Include="res\Shader02\Materials.fs" />
+    <None Include="res\Shader02\Lighting_maps.fs" />
+    <None Include="res\Shader02\Lighting_maps.vs" />
+    <None Include="res\Shader02\Light_caster.vs" />
+    <None Include="res\Shader02\Light_caster.fs" />
+    <None Include="res\Shader02\Light_cube_caster.vs" />
+    <None Include="res\Shader02\Light_cube_caster.fs" />
+    <None Include="res\Shader02\Multiple_light.vs" />
+    <None Include="res\Shader02\Multiple_light.fs" />
+    <None Include="res\Shader03\Model.vs" />
+    <None Include="res\Shader03\Model.fs" />
+    <None Include="res\Shader04\Depth_testing.vs" />
+    <None Include="res\Shader04\Depth_testing.fs" />
+    <None Include="res\Shader04\Stencil.vs" />
+    <None Include="res\Shader04\Stencil.fs" />
+    <None Include="res\Shader04\shaderSingleColor.fs" />
+    <None Include="res\Shader04\shaderSingleColor.vs" />
+    <None Include="res\Shader04\Blending.vs" />
+    <None Include="res\Shader04\Blending.fs" />
+    <None Include="res\Shader04\Framebuffers.vs" />
+    <None Include="res\Shader04\Framebuffers.fs" />
+    <None Include="res\Shader04\FrameBuffer_win.fs" />
+    <None Include="res\Shader04\FrameBuffer_win.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependences\GLFW\include\shader_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependences\GLFW\include\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependences\GLFW\include\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependences\GLFW\include\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependences\GLFW\include\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
