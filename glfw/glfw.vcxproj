@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Framebuffers.cpp" />
+    <ClCompile Include="src\Cubemaps.cpp" />
     <ClCompile Include="src\glad.c" />
   </ItemGroup>
   <ItemGroup>
@@ -169,6 +169,10 @@
     <None Include="res\Shader03\Model.vs" />
     <None Include="res\Shader04\Blending.fs" />
     <None Include="res\Shader04\Blending.vs" />
+    <None Include="res\Shader04\Cubemaps.fs" />
+    <None Include="res\Shader04\Cubemaps.vs" />
+    <None Include="res\Shader04\Cubemaps2.fs" />
+    <None Include="res\Shader04\Cubemaps2.vs" />
     <None Include="res\Shader04\Depth_testing.fs" />
     <None Include="res\Shader04\Depth_testing.vs" />
     <None Include="res\Shader04\Framebuffers.fs" />

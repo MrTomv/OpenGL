@@ -18,7 +18,7 @@
     <ClCompile Include="src\glad.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Framebuffers.cpp">
+    <ClCompile Include="src\Cubemaps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -64,6 +64,10 @@
     <None Include="res\Shader04\Framebuffers.fs" />
     <None Include="res\Shader04\FrameBuffer_win.fs" />
     <None Include="res\Shader04\FrameBuffer_win.vs" />
+    <None Include="res\Shader04\Cubemaps.vs" />
+    <None Include="res\Shader04\Cubemaps.fs" />
+    <None Include="res\Shader04\Cubemaps2.vs" />
+    <None Include="res\Shader04\Cubemaps2.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependences\GLFW\include\shader_s.h">
