@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Cubemaps.cpp" />
+    <ClCompile Include="src\05\AdvLighting.cpp" />
     <ClCompile Include="src\glad.c" />
   </ItemGroup>
   <ItemGroup>
@@ -179,10 +179,23 @@
     <None Include="res\Shader04\Framebuffers.vs" />
     <None Include="res\Shader04\FrameBuffer_win.fs" />
     <None Include="res\Shader04\FrameBuffer_win.vs" />
+    <None Include="res\Shader04\Geometry.fs" />
+    <None Include="res\Shader04\Geometry.gs" />
+    <None Include="res\Shader04\Geometry.vs" />
+    <None Include="res\Shader04\Geometry1.fs" />
+    <None Include="res\Shader04\Geometry1.gs" />
+    <None Include="res\Shader04\Geometry1.vs" />
+    <None Include="res\Shader04\Geometry2.fs" />
+    <None Include="res\Shader04\Geometry2.gs" />
+    <None Include="res\Shader04\Geometry2.vs" />
+    <None Include="res\Shader04\Instance.fs" />
+    <None Include="res\Shader04\Instance.vs" />
     <None Include="res\Shader04\shaderSingleColor.fs" />
     <None Include="res\Shader04\shaderSingleColor.vs" />
     <None Include="res\Shader04\Stencil.fs" />
     <None Include="res\Shader04\Stencil.vs" />
+    <None Include="res\Shader05\AdvLighting.fs" />
+    <None Include="res\Shader05\AdvLighting.vs" />
     <None Include="res\shader\basic.fs" />
     <None Include="res\shader\Basic.shader" />
     <None Include="res\shader\basic.vs" />
@@ -201,6 +214,7 @@
     <ClInclude Include="dependences\GLFW\include\Camera.h" />
     <ClInclude Include="dependences\GLFW\include\Mesh.h" />
     <ClInclude Include="dependences\GLFW\include\Model.h" />
+    <ClInclude Include="dependences\GLFW\include\Shader.h" />
     <ClInclude Include="dependences\GLFW\include\shader_s.h" />
     <ClInclude Include="dependences\GLFW\include\stb_image.h" />
   </ItemGroup>
